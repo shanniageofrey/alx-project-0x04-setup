@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { useCount } from "@/context/CountContext";
 
 const Header: React.FC = () => {
-
   const pathname = usePathname()
   const { count } = useCount()
 
